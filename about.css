@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  margin: 0;
+  font-family: cursive;
+}
+h5 {
+  font-weight: normal;
+}
+
+/* Header styles */
+header {
+  background-color: white;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  opacity: 80%;
+  height: 3rem;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-left {
+  padding-left: 10px;
+}
+.nav-right {
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  text-decoration: none;
+}
+.nav-right a {
+  color: black;
+  padding-right: 1rem;
+  text-decoration: none;
+}
+
+/* Main styles */
+.hero {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 600px;
+  background-color: whitesmoke;
+  opacity: 82%;
+}
+.herobackground {
+  width: auto;
+  margin: auto;
+  height: 620px;
+  display: flex;
+  background-image: url(images/img6.jpg);
+  background-size: cover;
+}
+button {
+  color: black;
+  font-weight: bolder;
+  background-color: whitesmoke;
+  font-size: 15px;
+  border-color: black;
+  transition-duration: 0.4sec;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+/* about css */
+.abouttext {
+  text-align: center;
+  margin: 45px auto;
+  width: 50vw;
+}
+/* abouttext */
+
+button:hover {
+  background-color: #d9b606;
+  color: #333;
+}
+footer {
+  background-color: #1a1a1a;
+  height: 300px;
+  display: flex;
+  padding-top: 80px;
+}
+footer div ul {
+  text-align: left;
+  padding-inline-start: 0px;
+}
+footer div ul li {
+  text-align: left;
+  padding-top: 12px;
+  list-style-type: none;
+  justify-content: left;
+  cursor: pointer;
+  color: whitesmoke;
+}
+footer div h4 {
+  cursor: pointer;
+  text-align: left;
+  color: white;
+}
+.footer {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3vw;
+  padding-right: 6vw;
+}
+footer div h4 {
+  color: rgb(143, 134, 134);
+}
+footer div h1 {
+  color: white;
+}
